@@ -4,6 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 def parse_args():
   """
+  
   Parse input arguments
   """
   parser = argparse.ArgumentParser(description='Color an image')
