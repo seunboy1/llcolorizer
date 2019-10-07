@@ -2,10 +2,10 @@ import numpy as np
 import argparse
 import cv2
 import matplotlib.pyplot as plt
+import pandas as pd
 def parse_args():
   """
-
-  Parse input arguments
+  Parse input argumentsss
   """
   parser = argparse.ArgumentParser(description='Color an image')
   parser.add_argument('--path', dest='path',
@@ -22,7 +22,6 @@ def parse_args():
 
 def colorize(image):
     """
-    
     """
     #Converting rgb image to a grayscale image
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
