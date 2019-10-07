@@ -22,6 +22,7 @@ def parse_args():
 
 def colorize(image):
     """
+    
     """
     #Converting rgb image to a grayscale image
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
