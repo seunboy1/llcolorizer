@@ -4,6 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 def parse_args():
   """
+
   Parse input arguments
   """
   parser = argparse.ArgumentParser(description='Color an image')
@@ -21,6 +22,7 @@ def parse_args():
 
 def colorize(image):
     """
+    
     """
     #Converting rgb image to a grayscale image
     gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
